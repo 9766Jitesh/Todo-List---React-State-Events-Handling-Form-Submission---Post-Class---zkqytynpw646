@@ -1,16 +1,43 @@
 h1 {
-    color: #27aedb;
+    color:white;
     text-align: center;
     }
     
 
 button{
-    color: #27aedb;
+    color: #66d7fd;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
+#inner{
+    height:200x;
+    width:300px;
+    background-color: rgba(236, 16, 16, 0.803);
+    margin: 20px auto;
+}
+#main{
+    height:450px;
+    width:600px;
+    background-color: gray;
+    display: flex;
+    margin: 20px auto;
 
+}
+li{
+    list-style-type:none;
+}
+ bi-pencil-square{
+    font-size: 15px;
+    color:blue;
+
+ }
+.bi-trash{
+    font-size: 15px;
+    color:red;
+    
+
+}
 .bg-pink{
 	background-color:pink;
 }
